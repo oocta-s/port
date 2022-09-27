@@ -1,0 +1,121 @@
+.navbar-brand{
+    color: white;
+}
+.navbar{
+    background-color: black;
+}
+.collapse a{
+    color: gray;
+}
+.collapse a:hover{
+    color: white;
+}
+
+#intro{
+    background: url(2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 20%;
+}
+#intro h1,h6{
+    color: white;
+    font-weight: bold;
+}
+#about{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#about ul{
+    list-style-type: none;
+}
+.progress{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.skills{
+    background-color: lightgray;
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+#skills{
+    margin-top: 20px;
+}
+#skills h6{
+    color: black;
+}
+footer{
+    background-color: black;
+    height: 150px;
+    padding-top: 20px;
+}
+.social-links a{
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+}
+.social-links a:hover{
+    background-color: #149ddd;
+}
+#services{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+.icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #149ddd;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #149ddd;
+}
+
+.icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+
+.icon:hover{
+    background-color: #fff;
+    
+}
+.icon i:hover{
+    color: #149ddd;
+}
+
+.title {
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.title a {
+    color: #343a40;
+}
+
+.title a:hover {
+    color: #149ddd;
+}
+
+.description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+}
